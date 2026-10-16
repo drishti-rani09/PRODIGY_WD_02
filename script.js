@@ -26,6 +26,7 @@ resetButton.addEventListener("click",()=>{
     clearInterval(interval);
     interval=null;
     seconds=0;
+    lapCount=0;
     updateDisplay();
     lapList.innerHTML="";
 });
